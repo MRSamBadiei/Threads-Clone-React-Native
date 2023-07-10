@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1057598402261",
+    "project_id": "threads-clone-c7bb7",
+    "storage_bucket": "threads-clone-c7bb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057598402261:android:bd0f10229eeaf7fd777c5c",
+        "android_client_info": {
+          "package_name": "com.sambadiei.threadsclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057598402261-9bdvep8j5ego0nj914liulm1fqk0k4ju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa4jSrgvnOQudd7fqkmreVnAR1wvUyg0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057598402261-9bdvep8j5ego0nj914liulm1fqk0k4ju.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

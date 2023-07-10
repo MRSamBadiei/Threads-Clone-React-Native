@@ -1,20 +1,26 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import * as React from "react";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import MainScreen from "./Screen/MainScreen";
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+//const RootStack = createStackNavigator();
+
+const Tab = createBottomTabNavigator();
+
+function App() {
+  return <MainScreen />;
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+/*
+ <NavigationContainer>
+      <RootStack.Navigator screenOptions={{ headerShown: false }}>
+        <RootStack.Group>
+          <RootStack.Screen name="Main" component={MainScreen} />
+        </RootStack.Group>
+        <RootStack.Group screenOptions={{ presentation: "modal" }}>
+          <RootStack.Screen name="Modal" component={ModalScreen} />
+        </RootStack.Group>
+      </RootStack.Navigator>
+    </NavigationContainer>
+*/
+
+export default App;
